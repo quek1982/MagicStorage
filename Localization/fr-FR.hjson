@@ -37,7 +37,7 @@ Mods: {
 				Tooltip:
 					'''
 					<right> Cœur de Stockage pour stocker l'emplacement
-					<right> Accès Stockage Distant pour le définir
+					<right> Accès stockage distant pour le définir
 					'''
 			}
 
@@ -46,13 +46,13 @@ Mods: {
 				Tooltip:
 					'''
 					<right> Cœur de Stockage pour stocker l'emplacement
-					<right> Accès au stockage éloigné pour le définir
+					<right> Accès stockage distant pour le définir
 					N'est pas détruit à l'usage
 					'''
 			}
 
 			PortableAccess: {
-				DisplayName: Accès portable ultime au stockage éloigné
+				DisplayName: Accès stockage distant portable ultime
 				Tooltip:
 					'''
 					Cour de Stockage pour stocker lemplacement
@@ -63,7 +63,7 @@ Mods: {
 			}
 
 			PortableCraftingAccess: {
-				DisplayName: Accès portable ultime à l'artisanat éloigné
+				DisplayName: Accès artisanat distant portable ultime
 				Tooltip:
 					'''
 					<right> Interface de stockage d'artisanat pour stocker l'emplacement
@@ -79,10 +79,10 @@ Mods: {
 			}
 
 			RemoteAccess: {
-				DisplayName: Accès au stockage éloigné
+				DisplayName: Accès stockage distant
 				Tooltip:
 					'''
-					Permet l'accès à distance d'un cœur de stockage
+					Permet l'accès à distance au cœur de stockage
 					Agit comme un "centre de stockage" pour des composants comme l'interface d'artisanat
 					'''
 			}
@@ -104,12 +104,12 @@ Mods: {
 
 			StorageComponent: {
 				DisplayName: Composant de stockage
-				Tooltip: L'article de base pour créer tout composant de stockage magique
+				Tooltip: L'article de base pour créer tout composant de Magic Storage
 			}
 
 			StorageConnector: {
 				DisplayName: Connecteur de stockage
-				Tooltip: Agit comme un pont pour la connexion des composants des composants de stockage magiques
+				Tooltip: Agit comme un pont pour la connexion des composants des composants de Magic Storage
 			}
 
 			StorageDeactivator: {
@@ -122,10 +122,10 @@ Mods: {
 			}
 
 			StorageHeart: {
-				DisplayName: Coeur de stockage
+				DisplayName: Cœur de stockage
 				Tooltip:
 					'''
-					Le composant central de tout système de stockage de stockage magique
+					Le composant central de tout système de stockage de Magic Storage
 					Requis pour qu'un système de stockage fonctionne
 					'''
 			}
@@ -134,7 +134,7 @@ Mods: {
 				DisplayName: Unité de stockage
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 40 articles
 					'''
 			}
@@ -143,7 +143,7 @@ Mods: {
 				DisplayName: Unité de stockage de chlorophytes bleus
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 240 articles
 					'''
 			}
@@ -152,7 +152,7 @@ Mods: {
 				DisplayName: Unité de rangement à crimtane
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 80 articles
 					'''
 			}
@@ -161,7 +161,7 @@ Mods: {
 				DisplayName: Unité de stockage de démonites
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 80 articles
 					'''
 			}
@@ -170,7 +170,7 @@ Mods: {
 				DisplayName: Unité de stockage sacrée
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 160 articles
 					'''
 			}
@@ -179,7 +179,7 @@ Mods: {
 				DisplayName: Unité de stockage de Hellstone
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 120 articles
 					'''
 			}
@@ -188,7 +188,7 @@ Mods: {
 				DisplayName: Unité de stockage luminite
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 320 articles
 					'''
 			}
@@ -197,7 +197,7 @@ Mods: {
 				DisplayName: Unité de stockage Terra
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 640 articles
 					'''
 			}
@@ -206,7 +206,7 @@ Mods: {
 				DisplayName: Petite unité de stockage
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Peut stocker jusqu'à 4 articles
 					'''
 			}
@@ -318,10 +318,10 @@ Mods: {
 				DisplayName: Interface de configuration de stockage
 				Tooltip:
 					'''
-					Un composant pour l'accessibilité transversale avec un système de stockage de stockage magique
+					Un composant pour l'accessibilité transversale avec un système de stockage de Magic Storage
 					Affiche une liste de modules d'environnement bascules ajoutés par d'autres mods, ou rien si aucun module n'est présent
 					Modules disponibles:
-					<Modules>
+					<MODULES>
 					'''
 			}
 
@@ -350,27 +350,27 @@ Mods: {
 			}
 
 			Config_GlowItemGlowing: {
-				DisplayName: Config // GlowitemLinking
+				DisplayName: Config//GlowItemGlowing
 				Tooltip: ""
 			}
 
 			Config_GlowItemNotGlowing: {
-				DisplayName: Config // glowitemnot brillant
+				DisplayName: Config//GlowItemNotGlowing
 				Tooltip: ""
 			}
 
 			Config_RecipeFilterAvailable: {
-				DisplayName: Config // recepeFilterAvailable
+				DisplayName: Config//RecipeFilterAvailable
 				Tooltip: ""
 			}
 
 			Config_RecipeFilterAll: {
-				DisplayName: Config // recepefilterall
+				DisplayName: Config//RecipeFilterAll
 				Tooltip: ""
 			}
 
 			PortableCraftingAccessPreHM: {
-				DisplayName: Accès de base à distance portable de base
+				DisplayName: Accès artisanat distant portable de base
 				Tooltip:
 					'''
 					<right> Création d'interface pour stocker l'emplacement
@@ -382,7 +382,7 @@ Mods: {
 			}
 
 			PortableCraftingAccessHM: {
-				DisplayName: Accès à la fabrication à distance avancée avancée
+				DisplayName: Accès artisanat distant portable avancé
 				Tooltip:
 					'''
 					<right> Création d'interface pour stocker l'emplacement
@@ -399,7 +399,7 @@ Mods: {
 			}
 
 			Shimmer_CoinLuck: {
-				DisplayName: Méta // shimmer / coin_luck
+				DisplayName: Meta//Shimmer/Coin_Luck
 				Tooltip: ""
 			}
 
@@ -410,10 +410,10 @@ Mods: {
 					'''
 					Stocke les articles qui se trouvaient dans une unité de stockage
 					<right> une unité de stockage vide pour l'insérer
-					<Capacité>
-					<shash>
+					<CAPACITY>
+					<HASH>
 					'''
-				ItemsStored: "[c / {0}: {1} / {2} éléments]"
+				ItemsStored: "[c/{0}:{1} / {2} éléments]"
 				Hash: Hash de données: {0:x08}
 			}
 
@@ -461,7 +461,7 @@ Mods: {
 				DisplayName: Unité de stockage vide
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de stockage magique
+					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
 					Besoin d'un noyau de stockage pour fonctionner
 					Clic droit tout en maintenant un noyau de stockage pour l'insérer
 					'''
@@ -536,8 +536,8 @@ Mods: {
 		}
 
 		GameTips: {
-			Automaton: L'automate peut vous apprendre tout ce qu'il y a à savoir sur le stockage magique.
-			ShadowDiamonds: Les diamants Shadow sont abandonnés lorsqu'un boss est vaincu pour la première fois. Ils peuvent être utilisés comme alternative aux diamants dans les recettes de stockage magiques.
+			Automaton: L'automate peut vous apprendre tout ce qu'il y a à savoir sur le Magic Storage.
+			ShadowDiamonds: Les diamants Shadow sont abandonnés lorsqu'un boss est vaincu pour la première fois. Ils peuvent être utilisés comme alternative aux diamants dans les recettes de Magic Storages.
 			RadiantJewel: Le Moon Lord laisse tomber le bijou rayonnant, qui peut être utilisé pour fabriquer des accès à distance portables avec une gamme d'accès illimitée.
 			StorageUpgrades: Vous manquez de stockage? Améliorez vos unités de stockage avec des mises à niveau de stockage!
 			RemoteStorage: Accédez à votre stockage dans d'autres endroits du monde avec un accès à distance après l'avoir lié à un cœur de stockage à un localisateur ou un disque de localisateur.
@@ -552,7 +552,7 @@ Mods: {
 		Bestiary.Golem:
 			'''
 			Un automate vivant propulsé par l'insaisissable Bluemagic.
-			Cela peut vous apprendre à tout savoir sur le stockage magique.
+			Cela peut vous apprendre à tout savoir sur le Magic Storage.
 			'''
 
 		Dialogue: {
@@ -609,7 +609,7 @@ Mods: {
 					[i:MagicStorage/StorageHeart], vous pouvez utiliser des connecteurs pour les connecter.
 					Recette: [rg/s16:Wood] [rg:IronBar] @ [rg:MagicStorage:AnyWorkBench] = [i/s16:MagicStorage/StorageConnector]
 					'''
-				Help8: Caché dans les noyaux de tous les boss se trouve un diamant d'ombre. Ce joyau maudit peut être utilisé comme alternative à un [i:Diamond] pour toutes les recettes de stockage magique. Une fois que vous avez obtenu un diamant d'ombre d'un boss, vous ne pouvez plus en tirer! Du bon côté, certains boss en tombent plus d'un.
+				Help8: Caché dans les noyaux de tous les boss se trouve un diamant d'ombre. Ce joyau maudit peut être utilisé comme alternative à un [i:Diamond] pour toutes les recettes de Magic Storage. Une fois que vous avez obtenu un diamant d'ombre d'un boss, vous ne pouvez plus en tirer! Du bon côté, certains boss en tombent plus d'un.
 				Help9:
 					'''
 					Vous manquez de stockage? Améliorez vos unités de stockage avec des mises à niveau de stockage! Une mise à niveau de stockage pour un certain niveau ne peut être appliquée qu'à une unité de stockage d'un niveau précédent.
@@ -625,7 +625,7 @@ Mods: {
 					'''
 				Help11:
 					'''
-					En tant que l'une des nombreuses fonctionnalités pour réduire le nombre de stations d'artisanat que vous devez mettre dans l'interface de fabrication, le stockage magique fournit l'élément de globe de biome. Cet article permet des recettes pour le Biome de neige, Ecto Mist, le feu de camp, l'eau, la lave, le miel et les autels Demon / Crimson. Vous pouvez même le tenir dans votre inventaire et cuisiner des guimauves sans avoir besoin de se tenir à côté d'un feu de camp!
+					En tant que l'une des nombreuses fonctionnalités pour réduire le nombre de stations d'artisanat que vous devez mettre dans l'interface de fabrication, le Magic Storage fournit l'élément de globe de biome. Cet article permet des recettes pour le Biome de neige, Ecto Mist, le feu de camp, l'eau, la lave, le miel et les autels Demon / Crimson. Vous pouvez même le tenir dans votre inventaire et cuisiner des guimauves sans avoir besoin de se tenir à côté d'un feu de camp!
 					Recette: [rg/s5:MagicStorage:AnyTombstone] [i:MagicStorage/SnowBiomeEmulator] [i/s5:WaterBucket] [i/s5:LavaBucket] [i/s5:HoneyBucket] [rg/s3:MagicStorage:AnyCampfire] [rg:MagicStorage:AnyDemonAltar] @ hand = [i:MagicStorage/BiomeGlobe]
 					'''
 				Help12:
@@ -748,13 +748,13 @@ Mods: {
 		StorageUnitActivated: L'unité de stockage a été activée
 		StorageUnitDeactivated: L'unité de stockage a été désactivée
 		FilterAllMods: Tous les mods
-		Capacity: "{0} / {1}"
-		LocatorSet: Locateur défini avec succès sur: x = {0}, y = {1}
+		Capacity: "{0} / {1} élements"
+		LocatorSet: Locateur défini avec succès sur: x={0}, y={1}
 		StorageAccessFail: Impossible de charger une entité de carreaux cardiaques de stockage!
 		StorageAccessFailAlt: Cet accès n'est pas connecté à un cœur de stockage!
 		StorageAccessFailLoad: Rangement du cœur de la zone du cœur n'est pas chargé! Essayer à nouveau.
-		TestItemSuffix: ! Jusqu'à réapparition!
-		SetTo: Défini sur: x = {0}, y = {1}
+		TestItemSuffix: !UNTIL RESPAWN!
+		SetTo: Défini sur: x={0}, y={1}
 		SnowBiomeBlock: Bloc de biome de neige
 		DepositAll: Déposer tout
 		CraftingStations: Stations de fabrication
@@ -768,7 +768,7 @@ Mods: {
 			Minus1: "-1"
 			Minus10: "-10"
 			Minus100: "-100"
-			MaxStack: Max. Empiler
+			MaxStack: Max. Stack
 			Reset: Réinitialiser
 			Amount: Fabrication: {0}
 		}
@@ -779,12 +779,12 @@ Mods: {
 		SortWaiting: Chargement ...
 
 		SearchTips: {
-			SearchName: Nom de recherche
-			SearchMod: Nom de recherche @modname
-			SearchTooltip: "#Search Infopp"
-			SearchModAndTooltip: @Modname #search info-tool
-			TipModAndTooltip: "[c / ffff00: @modname] à rechercher par mod, [c / ffff00: #search tooltip] à rechercher par tooltp (peut être combiné dans cet ordre)"
-			TipTooltipOnly: "[C / FFFF00: #Search ToolTip] à rechercher par info-bulle"
+			SearchName: Recherche nom
+			SearchMod: @ModName Recherche nom
+			SearchTooltip: "#Search Tooltip"
+			SearchModAndTooltip: @Modname #Search Tooltip
+			TipModAndTooltip: "[c/ffff00:@ModName] à rechercher par mod, [c/ffff00:#Search Tooltip] à rechercher par tooltp (peut être combiné dans cet ordre)"
+			TipTooltipOnly: "[c/ffff00:#Search Tooltip] à rechercher par info-bulle"
 		}
 
 		Recipes: Recettes
@@ -801,7 +801,7 @@ Mods: {
 		NextHistory: Prochaine recette de l'histoire
 		PanelTooSmol:
 			'''
-			Impossible d'ouvrir une interface utilisateur de stockage magique.  Raison: la hauteur du panneau était trop courte pour afficher correctement les éléments d'interface utilisateur.
+			Impossible d'ouvrir une interface utilisateur de Magic Storage.  Raison: la hauteur du panneau était trop courte pour afficher correctement les éléments d'interface utilisateur.
 			Veuillez réduire votre échelle d'interface utilisateur dans les paramètres ou augmenter la résolution de votre jeu dans les paramètres vidéo.
 			'''
 		ForcedLayoutChange:
@@ -840,9 +840,9 @@ Mods: {
 
 			CommandInfo: {
 				Descriptions: {
-					reqop: Demande l'état de l'administrateur du serveur (pour le stockage magique) du serveur
-					op: Donne à l'état de l'opérateur du serveur (pour le stockage magique) au client <gromble>
-					deop: Supprime l'état de l'opérateur du serveur (pour le stockage magique) du client <bor Swember>
+					reqop: Demande l'état de l'administrateur du serveur (pour le Magic Storage) du serveur
+					op: Donne à l'état de l'opérateur du serveur (pour le Magic Storage) au client <gromble>
+					deop: Supprime l'état de l'opérateur du serveur (pour le Magic Storage) du client <bor Swember>
 					whois: Imprime ce qu'est l'index du client de chaque joueur
 					whoami: Imprime l'index des joueurs de ce client
 				}
@@ -857,7 +857,7 @@ Mods: {
 				ClientAlreadyOp: Client {0} a déjà l'état de l'opérateur du serveur
 				ClientAlreadyDeop: Client {0} n'a déjà pas l'état de l'opérateur du serveur
 				MultiplayerOperatorOnly: Cette commande ne peut être utilisée que par des clients multijoueurs avec l'état de l'opérateur du serveur
-				Players: Joueurs:
+				Players: "Joueurs:"
 				YouAreClient: Vous êtes client {0}
 			}
 		}
@@ -883,21 +883,21 @@ Mods: {
 
 			ItemDeletionMode: {
 				Label: Mode de suppression des éléments
-				Enabled: Le mode de suppression de l'élément est maintenant [c / 00FF00: activé].  Double-cliquez sur un élément pour le supprimer.
-				Disabled: Le mode de suppression des éléments est maintenant [c / ff0000: désactivé].
+				Enabled: Le mode de suppression de l'élément est maintenant [c/00ff00:activé].  Double-cliquez sur un élément pour le supprimer.
+				Disabled: Le mode de suppression des éléments est maintenant [c/ff0000:désactivé].
 			}
 
 			SellDuplicatesMenu: {
 				Label: Mode de vente d'articles
-				Enabled: Le mode de vente d'articles est maintenant [c / 00FF00: activé].  Cliquez sur les articles pour les marquer comme des articles à vendre.
-				Disabled: Le mode de vente d'articles est maintenant [C / FF0000: désactivé].
+				Enabled: Le mode de vente d'articles est maintenant [c/00ff00:activé].  Cliquez sur les articles pour les marquer comme des articles à vendre.
+				Disabled: Le mode de vente d'articles est maintenant [c/ff0000:désactivé].
 				NoPrefix: Vendre des doublons sans préfixe
 				KeepMostValue: Garder le plus cher
 				KeepLeastValue: Garder le moins cher
 
 				SoldItemsReport: {
-					GotCoins: "{0} / {1} Les éléments ont été vendus pour {2}"
-					NoCoins: "{0} / {1} Les éléments ont été vendus, mais aucun n'avait de valeur"
+					GotCoins: "{0}/{1} Les éléments ont été vendus pour {2}"
+					NoCoins: "{0}/{1} Les éléments ont été vendus, mais aucun n'avait de valeur"
 					NoSell: Aucun article n'a été vendu
 					PacketTooLarge: Le nombre d'articles à vendre était trop important pour envoyer un paquet.  Veuillez réessayer avec un montant plus petit.
 				}
@@ -910,9 +910,9 @@ Mods: {
 			ShowAllIngredients: Montrer tous les ingrédients possibles
 
 			RecursionErrors: {
-				NoRecipe: "[C / FF0000: la simulation n'a pas réussi à trouver un arbre de récursivité valide, défautant vers la recette d'origine]"
-				NoObjects: "[C / FF0000: La simulation n'a pas trouvé de discours valide, défautant vers les objets requis de la recette d'origine]"
-				NoIngredients: "[C / FF0000: La simulation n'a pas réussi à trouver un arbre de récursivité valide, défaut aux ingrédients de la recette d'origine]"
+				NoRecipe: "[c/ff0000: la simulation n'a pas réussi à trouver un arbre de récursivité valide, défautant vers la recette d'origine]"
+				NoObjects: "[c/ff0000: La simulation n'a pas trouvé de discours valide, défautant vers les objets requis de la recette d'origine]"
+				NoIngredients: "[c/ff0000: La simulation n'a pas réussi à trouver un arbre de récursivité valide, défaut aux ingrédients de la recette d'origine]"
 			}
 		}
 
@@ -945,7 +945,7 @@ Mods: {
 
 				NPCSpawn: {
 					DirectTransform: "{0}"
-					IndirectTransform: "{0} (style # {1})"
+					IndirectTransform: "{0} (style #{1})"
 				}
 			}
 		}
@@ -1013,12 +1013,12 @@ Mods: {
 		}
 
 		Config: {
-			BetaLabel: Configage bêta de stockage magique
+			BetaLabel: Configage bêta de Magic Storage
 
 			Headers: {
-				Storage: "[i: MagicStorage / StorageHeart] Configage de GUI de stockage"
-				Crafting: "[I: MagicStorage / CraftingAccess] [I: MagicStorage / DecraftingAccess] Crafting et Aether GUIS Config"
-				StorageAndCrafting: "[I: MagicStorage / StorageHeart] [I: MagicStorage / CraftingAccess] Storage et Crafting GUIS Config"
+				Storage: "[i:MagicStorage/StorageHeart]  Configage de GUI de stockage"
+				Crafting: "[i:MagicStorage/CraftingAccess] [i:MagicStorage/DecraftingAccess]  Crafting et Aether GUIS Config"
+				StorageAndCrafting: "[i:MagicStorage/StorageHeart] [i:MagicStorage/CraftingAccess]  Storage et Crafting GUIS Config"
 				General: Configurations générales
 			}
 
@@ -1045,25 +1045,25 @@ Mods: {
 
 		Configs: {
 			MagicStorageConfig: {
-				DisplayName: Configuration de stockage magique
+				DisplayName: Configuration de Magic Storage
 
 				quickStackDepositMode: {
-					Label: "[i: poitrine] Mode de dépôt de pile rapide"
+					Label: "[i:Chest]  Mode de dépôt de pile rapide"
 					Tooltip: Activer la pile rapide avec le contrôle (CTRL) pressé, désactiver la pile rapide avec le contrôle (CTRL) libéré
 				}
 
 				useConfigFilter: {
-					Label: "[i: magicstorage / config_repipeFilterAvailable] [i: magicstorage / config_repipeFilterall] Utilisez le filtre par défaut"
+					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll]  Utilisez le filtre par défaut"
 					Tooltip: Activer d'utiliser le filtre ci-dessous, désactiver pour se souvenir du dernier filtre sélectionné dans le jeu (le filtre est toujours utilisé en premier ouvert après la charge du mod)
 				}
 
 				showAllRecipes: {
-					Label: "[I: MagicStorage / Config_RecipeFilterAvailable] [I: MagicStorage / Config_RecipeFilterall] Filtre de recette par défaut"
+					Label: "[i:MagicStorage/Config_RecipeFilterAvailable] [i:MagicStorage/Config_RecipeFilterAll]  Filtre de recette par défaut"
 					Tooltip: Activer la valeur par défaut de toutes les recettes, désactiver les recettes disponibles par défaut
 				}
 
 				useOldCraftMenu: {
-					Label: "[I: Workbench] Utilisez de vieux boutons d'artisanat"
+					Label: "[i:WorkBench]  Utilisez de vieux boutons d'artisanat"
 					Tooltip: Activer l'utilisation de l'interface utilisateur plus ancienne pour la fabrication dans l'interface graphique de fabrication
 				}
 
@@ -1078,7 +1078,7 @@ Mods: {
 				}
 
 				clearHistory: {
-					Label: "[i: livre] Historique des recettes claires"
+					Label: "[i:Book]  Historique des recettes claires"
 					Tooltip: Permettre de nettoyer l'histoire de la recette dans l'interface graphique de l'artisanat lors de l'ouverture
 				}
 
@@ -1093,7 +1093,7 @@ Mods: {
 				}
 
 				glowNewItems: {
-					Label: "[I: MagicStorage / Config_GlowItemlowing] [I: MagicStorage / Config_GlowItemNOTLINGLING] Affichez de nouveaux éléments / recettes"
+					Label: "[i:MagicStorage/Config_GlowItemGlowing] [i:MagicStorage/Config_GlowItemNotGlowing]  Affichez de nouveaux éléments / recettes"
 					Tooltip: Bascule si les nouveaux articles dans le stockage brillent pour indiquer qu'ils sont nouveaux
 				}
 
@@ -1108,17 +1108,17 @@ Mods: {
 				}
 
 				uiFavorites: {
-					Label: "[I: Fallenstar] Bouton Filtre Favoris"
+					Label: "[i:FallenStar]  Bouton Filtre Favoris"
 					Tooltip: Activer l'autorisation des articles / recettes favorisés dans l'interface graphique de fabrication
 				}
 
 				extraFilterIcons: {
-					Label: "[I: COG] Affichez les icônes de tri supplémentaires"
+					Label: "[i:Cog]  Affichez les icônes de tri supplémentaires"
 					Tooltip: Activer d'avoir les options de tri supplémentaires disponibles dans la disposition du bouton Legacy
 				}
 
 				buttonLayout: {
-					Label: Tri / filtrage de la disposition des bouton
+					Label: Tri/filtrage de la disposition des bouton
 					Tooltip:
 						'''
 						Héritage:
@@ -1142,7 +1142,7 @@ Mods: {
 				}
 
 				itemDataDebug: {
-					Label: "[I: IronPickaxe] Informations sur le débogage des articles"
+					Label: "[i:IronPickaxe] Informations sur le débogage des articles"
 					Tooltip: Activer de fabriquer des éléments dans l'interface graphique de stockage Affichez s'ils ont des données globales et permettent aux données "Imprimer les données" de clés pour imprimer des données
 				}
 
@@ -1158,7 +1158,7 @@ Mods: {
 
 				globalShimmerItemBlacklist: {
 					Label: Article global scintillant noire liste
-					Tooltip: Cliquez avec le changement de gauche Ctrl + gauche pour ajouter / supprimer la liste noire
+					Tooltip: Cliquez avec le changement de gauche Ctrl + gauche pour ajouter/supprimer la liste noire
 				}
 			}
 
@@ -1173,7 +1173,7 @@ Mods: {
 			}
 
 			MagicStorageServerConfig: {
-				DisplayName: Configuration du serveur de stockage magique
+				DisplayName: Configuration du serveur de Magic Storage
 
 				allowAutomatonToMoveIn: {
 					Label: Logement automatique
