@@ -37,6 +37,7 @@ Mods: {
 				Tooltip:
 					'''
 					<right> Cœur de Stockage pour stocker l'emplacement
+					Actuellement aucun emplacement n'est défini
 					<right> Accès stockage distant pour le définir
 					'''
 			}
@@ -46,6 +47,7 @@ Mods: {
 				Tooltip:
 					'''
 					<right> Cœur de Stockage pour stocker l'emplacement
+					Actuellement aucun emplacement n'est défini
 					<right> Accès stockage distant pour le définir
 					N'est pas détruit à l'usage
 					'''
@@ -55,7 +57,7 @@ Mods: {
 				DisplayName: Accès stockage distant portable ultime
 				Tooltip:
 					'''
-					Cour de Stockage pour stocker lemplacement
+					<right> Cœur de Stockage pour stocker lemplacement
 					Actuellement aucun emplacement n'est défini
 					Utilisez l'objet pour accéder à votre stockage
 					Dispose d'une portée d'accès illimitée
@@ -93,8 +95,8 @@ Mods: {
 			}
 
 			SnowBiomeEmulator: {
-				DisplayName: Groche de snowglobe cassé
-				Tooltip: Permet l'interface d'artisanat de stockage pour élaborer des recettes de biome de neige
+				DisplayName: Boule de neige cassée
+				Tooltip: Permet à l'interface de stockage d'artisanat d'élaborer des recettes du biome Toundra
 			}
 
 			StorageAccess: {
@@ -104,20 +106,20 @@ Mods: {
 
 			StorageComponent: {
 				DisplayName: Composant de stockage
-				Tooltip: L'article de base pour créer tout composant de Magic Storage
+				Tooltip: Objet de base pour créer tous les composants du mod Magic Storage
 			}
 
 			StorageConnector: {
 				DisplayName: Connecteur de stockage
-				Tooltip: Agit comme un pont pour la connexion des composants des composants de Magic Storage
+				Tooltip: Agit comme un pont pour connecter les composants du mod Magic Storage
 			}
 
 			StorageDeactivator: {
 				DisplayName: Baguette d'unité de stockage
 				Tooltip:
 					'''
-					Active / désactive une unité de stockage
-					Les unités de stockage désactivé tenteront de transférer leurs articles vers des unités de stockage activées dans un système de stockage
+					Active/désactive une unité de stockage
+					Les unités de stockage désactivées tenteront de transférer leurs articles vers des unités de stockage activées dans un système de stockage
 					'''
 			}
 
@@ -125,7 +127,7 @@ Mods: {
 				DisplayName: Cœur de stockage
 				Tooltip:
 					'''
-					Le composant central de tout système de stockage de Magic Storage
+					Le composant central de tout système de stockage du mod Magic Storage
 					Requis pour qu'un système de stockage fonctionne
 					'''
 			}
@@ -134,7 +136,7 @@ Mods: {
 				DisplayName: Unité de stockage
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 40 articles
 					'''
 			}
@@ -143,16 +145,16 @@ Mods: {
 				DisplayName: Unité de stockage de chlorophytes bleus
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 240 articles
 					'''
 			}
 
 			StorageUnitCrimtane: {
-				DisplayName: Unité de rangement à crimtane
+				DisplayName: Unité de stockage de carmitane 
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 80 articles
 					'''
 			}
@@ -161,34 +163,36 @@ Mods: {
 				DisplayName: Unité de stockage de démonites
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 80 articles
 					'''
 			}
 
 			StorageUnitHallowed: {
-				DisplayName: Unité de stockage sacrée
+				DisplayName: Unité de stockage de sacrée
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 160 articles
 					'''
 			}
 
 			StorageUnitHellstone: {
-				DisplayName: Unité de stockage de Hellstone
+				DisplayName: Unité de stockage de pierre infernale
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 120 articles
 					'''
 			}
+
+			#######################################################################
 
 			StorageUnitLuminite: {
 				DisplayName: Unité de stockage luminite
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 320 articles
 					'''
 			}
@@ -197,7 +201,7 @@ Mods: {
 				DisplayName: Unité de stockage Terra
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 640 articles
 					'''
 			}
@@ -206,7 +210,7 @@ Mods: {
 				DisplayName: Petite unité de stockage
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Peut stocker jusqu'à 4 articles
 					'''
 			}
@@ -275,13 +279,13 @@ Mods: {
 			}
 
 			CrimsonAltar: {
-				DisplayName: Autel cramoisi
-				Tooltip: Un autel à cramoisi placable. Ne peut pas être extrait pour obtenir des minerais de modes dur
+				DisplayName: Autel carmin
+				Tooltip: Un autel carmin placable. Ne peut pas être miné pour obtenir des minerais du Hard mode
 			}
 
 			DemonAltar: {
-				DisplayName: Autel de démon
-				Tooltip: Un autel de démon placable. Ne peut pas être extrait pour obtenir des minerais de modes dur
+				DisplayName: Autel démoniaque
+				Tooltip: Un autel démoniaque placable. Ne peut pas être miné pour obtenir des minerais du Hard mode
 			}
 
 			CombinedFurnitureStations1Item: {
@@ -318,7 +322,7 @@ Mods: {
 				DisplayName: Interface de configuration de stockage
 				Tooltip:
 					'''
-					Un composant pour l'accessibilité transversale avec un système de stockage de Magic Storage
+					Un composant pour l'accessibilité transversale avec un système de stockage du mod Magic Storage
 					Affiche une liste de modules d'environnement bascules ajoutés par d'autres mods, ou rien si aucun module n'est présent
 					Modules disponibles:
 					<MODULES>
@@ -332,8 +336,8 @@ Mods: {
 					<right> Cœur de Stockage pour stocker l'emplacement
 					Actuellement, aucun emplacement n'est défini
 					Utilisez l'article pour accéder à votre stockage
-					Le cœur lié doit être au maximum de 100 'de n'importe quel pylône valide pour gagner une portée étendue sur chaque pylône
-					Le joueur doit être au maximum de 1000 'du cœur ou du pylône lié pour accéder au stockage
+					Le cœur lié doit être au maximum de 50 blocs de n'importe quel pylône valide pour gagner une portée étendue sur chaque pylône
+					Le joueur doit être au maximum de 500 blocs du cœur ou du pylône lié pour accéder au stockage
 					'''
 			}
 
@@ -344,8 +348,8 @@ Mods: {
 					<right> Cœur de Stockage pour stocker l'emplacement
 					Actuellement, aucun emplacement n'est défini
 					Utilisez l'article pour accéder à votre stockage
-					Le cœur lié doit être tout au plus 200 'de tout pylône valide pour gagner une portée étendue sur chaque pylône
-					Le joueur doit être au maximum à 3000 'du cœur ou du pylône lié pour accéder au stockage
+					Le cœur lié doit être tout au plus 100 blocs de tout pylône valide pour gagner une portée étendue sur chaque pylône
+					Le joueur doit être au maximum à 1500 blocs du cœur ou du pylône lié pour accéder au stockage
 					'''
 			}
 
@@ -376,8 +380,8 @@ Mods: {
 					<right> Création d'interface pour stocker l'emplacement
 					Actuellement, aucun emplacement n'est défini
 					Utilisez un article pour accéder à votre artisanat
-					L'interface liée doit être au maximum de 100 'de n'importe quel pylône valide pour gagner une portée étendue sur chaque pylône
-					Le joueur doit être au maximum de 1000 'de l'interface liée ou du pylône pour accéder à l'artisanat
+					L'interface liée doit être au maximum de 50 blocs de n'importe quel pylône valide pour gagner une portée étendue sur chaque pylône
+					Le joueur doit être au maximum de 500 blocs de l'interface liée ou du pylône pour accéder à l'artisanat
 					'''
 			}
 
@@ -388,8 +392,8 @@ Mods: {
 					<right> Création d'interface pour stocker l'emplacement
 					Actuellement, aucun emplacement n'est défini
 					Utilisez un article pour accéder à votre artisanat
-					L'interface liée doit être au maximum de 200 'de n'importe quel pylône valide pour gagner une portée étendue sur chaque pylône
-					Le joueur doit être au maximum à 3000 'de l'interface liée ou du pylône pour accéder à l'artisanat
+					L'interface liée doit être au maximum de 100 blocs de n'importe quel pylône valide pour gagner une portée étendue sur chaque pylône
+					Le joueur doit être au maximum à 1500 blocs de l'interface liée ou du pylône pour accéder à l'artisanat
 					'''
 			}
 
@@ -461,7 +465,7 @@ Mods: {
 				DisplayName: Unité de stockage vide
 				Tooltip:
 					'''
-					Un composant pour stocker les éléments dans un système de stockage de Magic Storage
+					Un composant pour stocker les éléments dans un système de stockage du mod Magic Storage
 					Besoin d'un noyau de stockage pour fonctionner
 					Clic droit tout en maintenant un noyau de stockage pour l'insérer
 					'''
@@ -536,7 +540,7 @@ Mods: {
 		}
 
 		GameTips: {
-			Automaton: L'automate peut vous apprendre tout ce qu'il y a à savoir sur le Magic Storage.
+			Automaton: L'automate peut vous apprendre tout ce qu'il y a à savoir sur le mod Magic Storage.
 			ShadowDiamonds: Les diamants Shadow sont abandonnés lorsqu'un boss est vaincu pour la première fois. Ils peuvent être utilisés comme alternative aux diamants dans les recettes de Magic Storages.
 			RadiantJewel: Le Moon Lord laisse tomber le bijou rayonnant, qui peut être utilisé pour fabriquer des accès à distance portables avec une gamme d'accès illimitée.
 			StorageUpgrades: Vous manquez de stockage? Améliorez vos unités de stockage avec des mises à niveau de stockage!
@@ -546,13 +550,13 @@ Mods: {
 			PortableAccess: Élaborez un accès à distance à distance portable pour accéder à votre stockage pendant que vous êtes loin de chez vous.
 			StorageCores: Utilisez une clé à noyau de stockage pour retirer le noyau de stockage d'une unité de stockage, qui peut ensuite être insérée dans une unité de stockage vide.
 			DisableUnit: Utilisez une baguette d'unité de stockage pour désactiver une unité de stockage. Une unité de stockage désactivée ne peut pas stocker des articles et tentera de déplacer ses articles vers des unités de stockage connectées.
-			BiomeGlobe: Le Biome Globe permet des recettes pour le biome de neige, l'ecto Mist, le feu de camp, l'eau, la lave, le miel et les autels Demon / Crimson.
+			BiomeGlobe: Le Biome Globe permet des recettes pour le biome de neige, l'ecto Mist, le feu de camp, l'eau, la lave, le miel et les autels démoniaque/carmin.
 		}
 
 		Bestiary.Golem:
 			'''
 			Un automate vivant propulsé par l'insaisissable Bluemagic.
-			Cela peut vous apprendre à tout savoir sur le Magic Storage.
+			Cela peut vous apprendre à tout savoir sur le mod Magic Storage.
 			'''
 
 		Dialogue: {
@@ -600,7 +604,7 @@ Mods: {
 					[i:WaterBucket], [i:BottomlessBucket], [rg:MagicStorage:AnySink] Et tout autre élément qui place une tuile qui compte comme une source d'eau permettent des recettes d'eau.
 					[i:LavaBucket] Active les recettes de lave.
 					[i:HoneyBucket] Active les recettes de miel.
-					[i:MagicStorage/DemonAltar] et [i:MagicStorage/CrimsonAltar] Activez les recettes de Demon / Crimson.
+					[i:MagicStorage/DemonAltar] et [i:MagicStorage/CrimsonAltar] Activez les recettes de d&émoniaque/carmin.
 					[i:MagicStorage/SnowBiomeEmulator] Active les recettes de biome de neige.
 					'''
 				Help7:
@@ -609,7 +613,7 @@ Mods: {
 					[i:MagicStorage/StorageHeart], vous pouvez utiliser des connecteurs pour les connecter.
 					Recette: [rg/s16:Wood] [rg:IronBar] @ [rg:MagicStorage:AnyWorkBench] = [i/s16:MagicStorage/StorageConnector]
 					'''
-				Help8: Caché dans les noyaux de tous les boss se trouve un diamant d'ombre. Ce joyau maudit peut être utilisé comme alternative à un [i:Diamond] pour toutes les recettes de Magic Storage. Une fois que vous avez obtenu un diamant d'ombre d'un boss, vous ne pouvez plus en tirer! Du bon côté, certains boss en tombent plus d'un.
+				Help8: Caché dans les noyaux de tous les boss se trouve un diamant d'ombre. Ce joyau maudit peut être utilisé comme alternative à un [i:Diamond] pour toutes les recettes du mod Magic Storage. Une fois que vous avez obtenu un diamant d'ombre d'un boss, vous ne pouvez plus en tirer! Du bon côté, certains boss en tombent plus d'un.
 				Help9:
 					'''
 					Vous manquez de stockage? Améliorez vos unités de stockage avec des mises à niveau de stockage! Une mise à niveau de stockage pour un certain niveau ne peut être appliquée qu'à une unité de stockage d'un niveau précédent.
@@ -625,7 +629,7 @@ Mods: {
 					'''
 				Help11:
 					'''
-					En tant que l'une des nombreuses fonctionnalités pour réduire le nombre de stations d'artisanat que vous devez mettre dans l'interface de fabrication, le Magic Storage fournit l'élément de globe de biome. Cet article permet des recettes pour le Biome de neige, Ecto Mist, le feu de camp, l'eau, la lave, le miel et les autels Demon / Crimson. Vous pouvez même le tenir dans votre inventaire et cuisiner des guimauves sans avoir besoin de se tenir à côté d'un feu de camp!
+					En tant que l'une des nombreuses fonctionnalités pour réduire le nombre de stations d'artisanat que vous devez mettre dans l'interface de fabrication, le mod Magic Storage fournit l'élément de globe de biome. Cet article permet des recettes pour le Biome de neige, Ecto Mist, le feu de camp, l'eau, la lave, le miel et les autels démoniaque/carmin. Vous pouvez même le tenir dans votre inventaire et cuisiner des guimauves sans avoir besoin de se tenir à côté d'un feu de camp!
 					Recette: [rg/s5:MagicStorage:AnyTombstone] [i:MagicStorage/SnowBiomeEmulator] [i/s5:WaterBucket] [i/s5:LavaBucket] [i/s5:HoneyBucket] [rg/s3:MagicStorage:AnyCampfire] [rg:MagicStorage:AnyDemonAltar] @ hand = [i:MagicStorage/BiomeGlobe]
 					'''
 				Help12:
@@ -640,14 +644,14 @@ Mods: {
 				Help14: Le désactivateur de stockage vous permet de désactiver un [i:MagicStorage/StorageUnit]. Un handicapé [i:MagicStorage/StorageUnit] ne peut pas stocker des articles et tentera rapidement de déplacer ses articles sur des carreaux connectés [i:MagicStorage/StorageUnit]. S'il ne peut pas déplacer ses éléments, les éléments restent dans les handicapés [i:MagicStorage/StorageUnit].
 				Help15:
 					'''
-					Pour plus de commodité des utilisateurs, Magic Storage ajoute des recettes pour les autels de démon placables et les autels cramoisi. Bien que les mines ne vous donnent pas les minerais, vous pouvez toujours les utiliser comme stations d'artisanat.
+					Pour plus de commodité des utilisateurs, le mod Magic Storage ajoute des recettes pour les autels de démon placables et les autels cramoisi. Bien que les mines ne vous donnent pas les minerais, vous pouvez toujours les utiliser comme stations d'artisanat.
 					Recettes:
 					[i/s10:DemoniteBar] [i/s15:ShadowScale] @ [i:MagicStorage/DemonAltar] = [i:MagicStorage/DemonAltar]
 					[i/s10:CrimtaneBar] [i/s15:TissueSample] @ [i:MagicStorage/CrimsonAltar] = [i:MagicStorage/CrimsonAltar]
 					'''
 				Help16:
 					'''
-					En tant que l'une des nombreuses fonctionnalités pour réduire le nombre de stations d'artisanat que vous devez mettre dans l'interface de fabrication, Magic Storage fournit plusieurs stations d'artisanat combinées. Chaque station d'artisanat combinée hérite des propriétés de ses stations d'artisanat de matériaux.
+					En tant que l'une des nombreuses fonctionnalités pour réduire le nombre de stations d'artisanat que vous devez mettre dans l'interface de fabrication, le mod Magic Storage fournit plusieurs stations d'artisanat combinées. Chaque station d'artisanat combinée hérite des propriétés de ses stations d'artisanat de matériaux.
 					Recettes:
 					[rg:MagicStorage:AnyWorkBench] [i:Furnace] [rg:MagicStorage:AnyPreHmAnvil] [rg:MagicStorage:AnyBottle] [rg:MagicStorage:AnySink] [i:Sawmill] [i:Loom] [rg:MagicStorage:AnyTable] @ hand = [i:MagicStorage/CombinedStations1Item]
 					[i:MagicStorage/CombinedStations1Item] [i:Hellforge] [i:AlchemyTable] [rg:MagicStorage:AnyCookingPot] [i:TinkerersWorkshop] [i:DyeVat] [i:HeavyWorkBench] [i:Keg] [i:TeaKettle] @ hand = [i:MagicStorage/CombinedStations2Item]
@@ -655,7 +659,7 @@ Mods: {
 					'''
 				Help17:
 					'''
-					En tant que l'une des nombreuses fonctionnalités pour réduire le nombre de stations d'artisanat que vous devez mettre dans l'interface de fabrication, Magic Storage fournit plusieurs stations d'artisanat combinées. Chaque station d'artisanat combinée hérite des propriétés de ses stations d'artisanat de matériaux.
+					En tant que l'une des nombreuses fonctionnalités pour réduire le nombre de stations d'artisanat que vous devez mettre dans l'interface de fabrication, le mod Magic Storage fournit plusieurs stations d'artisanat combinées. Chaque station d'artisanat combinée hérite des propriétés de ses stations d'artisanat de matériaux.
 					Recettes:
 					[i:BoneWelder] [i:GlassKiln] [i:HoneyDispenser] [i:IceMachine] [i:LivingLoom] [i:SkyMill] [i:Solidifier] @ hand = [i:MagicStorage/CombinedFurnitureStations1Item]
 					[i:MagicStorage/CombinedFurnitureStations1Item] [i:MeatGrinder] [i:LesionStation] [i:FleshCloningVaat] [i:SteampunkBoiler] [i:LihzahrdFurnace] [i:BlendOMatic] @ hand = [i:MagicStorage/CombinedFurnitureStations2Item]
@@ -675,7 +679,7 @@ Mods: {
 					'''
 					L'interface de configuration permet à d'autres mods d'ajouter des "modules d'artisanat" qui peuvent affecter le fonctionnement de la fonction [i:MagicStorage/CraftingAccess].
 					Ces modules peuvent être activés et désactivés dans l'interface utilisateur pour l'interface de configuration.
-					Par défaut, Magic Storage fournit des modules pour la lecture du menu de duplication des inventaires et du mode de voyage du lecteur.
+					Par défaut, le mod Magic Storage fournit des modules pour la lecture du menu de duplication des inventaires et du mode de voyage du lecteur.
 					[rg/s2:MagicStorage:AnyDiamond] [i/s50:DirtBlock] [i/s50:StoneBlock] [i/s50:MudBlock] [i/s50:SnowBlock] [i/s50:SandBlock] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/EnvironmentAccess]
 					'''
 				Help20:
@@ -801,7 +805,7 @@ Mods: {
 		NextHistory: Prochaine recette de l'histoire
 		PanelTooSmol:
 			'''
-			Impossible d'ouvrir une interface utilisateur de Magic Storage.  Raison: la hauteur du panneau était trop courte pour afficher correctement les éléments d'interface utilisateur.
+			Impossible d'ouvrir une interface utilisateur du mod Magic Storage.  Raison: la hauteur du panneau était trop courte pour afficher correctement les éléments d'interface utilisateur.
 			Veuillez réduire votre échelle d'interface utilisateur dans les paramètres ou augmenter la résolution de votre jeu dans les paramètres vidéo.
 			'''
 		ForcedLayoutChange:
@@ -840,9 +844,9 @@ Mods: {
 
 			CommandInfo: {
 				Descriptions: {
-					reqop: Demande l'état de l'administrateur du serveur (pour le Magic Storage) du serveur
-					op: Donne à l'état de l'opérateur du serveur (pour le Magic Storage) au client <gromble>
-					deop: Supprime l'état de l'opérateur du serveur (pour le Magic Storage) du client <bor Swember>
+					reqop: Demande l'état de l'administrateur du serveur (pour le mod Magic Storage) du serveur
+					op: Donne à l'état de l'opérateur du serveur (pour le mod Magic Storage) au client <gromble>
+					deop: Supprime l'état de l'opérateur du serveur (pour le mod Magic Storage) du client <bor Swember>
 					whois: Imprime ce qu'est l'index du client de chaque joueur
 					whoami: Imprime l'index des joueurs de ce client
 				}
@@ -1013,7 +1017,7 @@ Mods: {
 		}
 
 		Config: {
-			BetaLabel: Configage bêta de Magic Storage
+			BetaLabel: Configage bêta du mod Magic Storage
 
 			Headers: {
 				Storage: "[i:MagicStorage/StorageHeart]  Configage de GUI de stockage"
@@ -1045,7 +1049,7 @@ Mods: {
 
 		Configs: {
 			MagicStorageConfig: {
-				DisplayName: Configuration de Magic Storage
+				DisplayName: Configuration du mod Magic Storage
 
 				quickStackDepositMode: {
 					Label: "[i:Chest]  Mode de dépôt de pile rapide"
@@ -1173,7 +1177,7 @@ Mods: {
 			}
 
 			MagicStorageServerConfig: {
-				DisplayName: Configuration du serveur de Magic Storage
+				DisplayName: Configuration serveur du mod Magic Storage
 
 				allowAutomatonToMoveIn: {
 					Label: Logement automatique
